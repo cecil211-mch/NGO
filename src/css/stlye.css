@@ -1,0 +1,246 @@
+body{
+  /* background-image: url("/assets/images/bg_4.jpg");  */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 300px;
+  background-color: #a9a9a9;
+}
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: #0a193d;
+	color: white !important;
+}
+
+.nav-item a{
+	color: white !important;
+}
+
+.nav-item{
+	padding-left: 2px;
+}
+
+.navbar-brand{
+	color: white !important;
+	padding-left: 100px;
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container{
+	background-color: #0a193d;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+#banner-row img{
+	max-width: 70%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row h3, p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#service h1{
+	padding-bottom: 70px;
+}
+
+/* about */
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1{
+	padding-bottom: 70px;
+}
+
+#about-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#about-col ul li{
+	padding-top: 15px;
+	
+}
+
+/* product */
+
+#product{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#product h1{
+	padding-bottom: 70px;
+}
+
+#product-col2 ul{
+	padding-top: 90px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+}
+
+/* social */
+
+#social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#social h1{
+	padding-bottom: 70px;
+}
+
+.social-col a:hover img{
+transform: translateY(-10px);
+}
+
+#social-row{
+	flex-direction: row;
+}
+
+/* footer */
+
+.mb-3{
+padding-top: 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+
+.social-col{
+	width: 33%;
+}
+
+	display: block;
+	overflow-x: hidden;
+  }
+  nav {
+	background-color: white;
+  }
+  .navbar-brand img {
+	max-height: 50px;
+  }
+  .navbar-brand {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #683aa4;
+  }
+  nav ul li a {
+	color: #a9a9a9;
+	font-size: 22px;
+	margin: auto 10px;
+  }
+  nav ul li a:hover {
+	color: #683aa4;
+  }
+  
+  section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+  }
+  section h1 {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #683aa4;
+	text-align: left;
+	margin-bottom: 20px;
+  }
+  section p {
+	font-size: 16px;
+	font-weight: 300;
+  }
+  button {
+	max-width: 50%;
+	border-radius: 50px !important;
+  }
+  #hero .col {
+	justify-content: center; 
+	flex-direction: column;
+	display: flex;
+  }
+  #hero .img-col {
+	justify-content: flex-end; 
+	margin-top: 100px;
+  }
+  #hero img {
+	max-width: 130% !important;
+	width: 130%;
+  }
+  #hero .card {
+	box-shadow: 11px 7px 16px #f9f9f9;
+	border: 0;
+	text-align: center;
+  }
+  #hero .icon {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+  } 
+  #projects .projects {
+    margin-bottom: 50px;
+  }
+  #contact {
+    text-align: center;
+    background-color: #683aa4;
+    color: white;
+  }
+  #contact h1 {
+    text-align: center;
+    color: white;
+  }
