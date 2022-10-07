@@ -162,4 +162,18 @@ transform: translateY(-10px);
 	height:450px;
 	
   }
-  
+  .banner {
+	width:895px;
+    padding:10px;
+    border:1px solid #e2e3e4;
+    margin-top:50px;
+    overflow: hidden;
+}
+  .hero-wrap{
+	  position: relative;
+	  width: 100%;
+	  height: 100vh;
+	  max-height: 800px;
+	  min-height: 640px;
+	  display: block;
+  }
