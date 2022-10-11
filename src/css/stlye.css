@@ -86,6 +86,9 @@ body{
 #about{
 	padding-top: 80px;
 	padding-bottom: 80px;
+
+}
+
 }
 
 #about h1{
@@ -183,64 +186,3 @@ transform: translateY(-10px);
 	  min-height: 640px;
 	  display: block;
   }
-  /* /OWL CAROUSEL */
-.owl-carousel {
-	position: relative;
-	.owl-item {
-		opacity: .4;
-		&.active {
-			opacity: 1;
-		}
-	}
-	
-	.owl-nav {
-		position: absolute;
-		top: 50%;
-		width: 100%;
-		.owl-prev,
-		.owl-next {
-			position: absolute;
-			transform: translateY(-50%);
-			margin-top: -10px;
-			color: $primary !important;
-			@include transition(.7s);
-			span {
-				&:before {
-					font-size: 30px;
-				}
-			}
-			opacity: 0;
-		}
-		.owl-prev {
-			left: 0;
-		}
-		.owl-next {
-			right: 0;
-		}
-	}
-	.owl-dots {
-		text-align: center;
-		.owl-dot {
-			width: 10px;
-			height: 10px;
-			margin: 5px;
-			border-radius: 50%;
-			background: lighten($black, 90%);
-			position: relative;
-			&:after{
-				position: absolute;
-				top: -2px;
-				left: -2px;
-				right: 0;
-				bottom: 0;
-				width: 14px;
-				height: 14px;
-				content: '';
-				border:1px solid lighten($black, 90%);
-				@include border-radius(50%);
-			}	
-			&.active {
-				background: lighten($black, 70%);
-			}
-		}
-	}
