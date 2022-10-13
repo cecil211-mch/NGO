@@ -47,6 +47,13 @@ body{
 	padding-bottom: 80px;
 	
 }
+#b_image{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+
+
+}
 
 #banner-row img{
 	max-width: 70%;
@@ -89,7 +96,7 @@ body{
 
 }
 
-}
+
 
 #about h1{
 	padding-bottom: 70px;
@@ -186,3 +193,5 @@ transform: translateY(-10px);
 	  min-height: 640px;
 	  display: block;
   }
+
+  
