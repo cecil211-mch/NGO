@@ -45,12 +45,13 @@ body{
 	color: white !important;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	background-repeat: no-repeat;
 	
 }
 #b_image{
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
+	height: 200px;
 
 
 }
